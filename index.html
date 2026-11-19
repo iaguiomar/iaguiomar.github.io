@@ -3,120 +3,166 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f7f4fa">
-  <meta name="description" content="Conheça o curso técnico em Desenvolvimento de Sistemas da EEEP Guiomar Belchior Aguiar, em Cariré-CE.">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Desenvolvimento de Sistemas | EEEP Guiomar">
-  <meta property="og:description" content="Tecnologia, criatividade e projetos feitos por estudantes.">
-  <meta property="og:image" content="assets/logo-ds-guiomar.png">
-  <title>Desenvolvimento de Sistemas | EEEP Guiomar</title>
-  <link rel="icon" type="image/png" href="assets/logo-ds-guiomar.png">
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <meta name="theme-color" content="#1a0b2e">
+  <meta name="description" content="Conheça o Curso Técnico em Inteligência Artificial da EEEP Guiomar Belchior Aguiar.">
+  <title>Inteligência Artificial | EEEP Guiomar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="page" id="inicio">
-    <header class="header">
-      <a class="brand" href="#inicio" aria-label="Início">
-        <img src="assets/logo-ds-guiomar.png" alt="Logo do curso Desenvolvimento de Sistemas">
-        <span><strong>DESENVOLVIMENTO</strong><small>DE SISTEMAS · GUIOMAR</small></span>
-      </a>
-      <a class="header-link" href="#ingresso">Quero estudar <span aria-hidden="true">↗</span></a>
-    </header>
+<div class="mobile-site">
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Início"><span class="brand-mark">IA</span><span>EEEP GUIOMAR<br><small>CURSO TÉCNICO</small></span></a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#curso">O curso</a><a href="#disciplinas">Disciplinas</a><a href="#carreiras">Carreiras</a><a href="#professores">Professores</a><a href="#escola">A escola</a>
+    </nav>
+  </header>
 
-    <section class="hero" aria-labelledby="hero-title">
-      <span class="eyebrow"><i></i> EEEP GUIOMAR BELCHIOR AGUIAR</span>
-      <h1 id="hero-title">Gosta de tecnologia?<br><span>Vem criar com a gente.</span></h1>
-      <p>Conheça o curso técnico em Desenvolvimento de Sistemas da Escola Profissionalizante de Cariré e descubra o que você pode criar.</p>
-      <a class="primary-button" href="#areas">Conhecer o curso <span aria-hidden="true">↓</span></a>
-      <div class="hero-bottom"><span>ENSINO MÉDIO + FORMAÇÃO TÉCNICA</span><span class="hero-symbol" aria-hidden="true">&lt;/&gt;</span></div>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="pixel-tag">NEW GAME+ <span>· TURMA 2027</span></div>
+      <p class="eyebrow">CURSO TÉCNICO EM</p>
+      <h1>Inteligência<br><em>Artificial</em></h1>
+      <p class="hero-lead">O curso evoluiu.<br>Seu próximo <strong>nível</strong><br>começa aqui.</p>
+      <div class="hero-art" role="img" aria-label="Ilustração tecnológica de inteligência artificial">
+        <div class="orb"><span>IA</span><i></i></div><div class="art-code">0101<br>1010<br>0011</div>
+        <span class="art-label">HUMAN × MACHINE</span>
+      </div>
+      <div class="hero-bottom"><span>PRESS START ▶</span><span>3 ANOS · 3 FASES</span></div>
+      <a class="primary-btn" href="#curso">DESCOBRIR O CURSO <b>↓</b></a>
     </section>
 
-    <section class="section" id="areas" aria-labelledby="areas-title">
-      <div class="section-heading">
-        <span class="eyebrow">EXPLORE</span>
-        <h2 id="areas-title">O que você curte criar?</h2>
-        <p>Conheça algumas áreas da tecnologia.</p>
-      </div>
-
-      <div class="areas-grid">
-        <article class="area-card">
-          <span class="area-icon" aria-hidden="true">
-            <svg viewBox="0 0 48 48"><rect x="10" y="15" width="28" height="24" rx="7"/><path d="M24 8v7M20 8h8M6 24h4m28 0h4M17 25h.5M30.5 25h.5m-12 6c2.5 2 6.5 2 9 0"/><circle cx="24" cy="6" r="2"/></svg>
-          </span>
-          <h3>Robótica</h3>
-          <p>Monte e programe robôs.</p>
-        </article>
-        <article class="area-card">
-          <span class="area-icon" aria-hidden="true">
-            <svg viewBox="0 0 48 48"><path d="M15 16h18c5 0 8 3 10 10l2 8c1 4-3 7-7 4l-7-6H17l-7 6c-4 3-8 0-7-4l2-8c2-7 5-10 10-10Z"/><path d="M15 23v9m-4.5-4.5h9M31 25h.5m5 5h.5"/></svg>
-          </span>
-          <h3>Jogos</h3>
-          <p>Crie seus próprios jogos.</p>
-        </article>
-        <article class="area-card">
-          <span class="area-icon" aria-hidden="true">
-            <svg viewBox="0 0 48 48"><path d="M24 5C13 5 5 13 5 23c0 11 8 20 19 20h4c3 0 5-3 3-6-2-3 0-6 4-6 5 0 8-4 8-9C43 12 35 5 24 5Z"/><circle cx="16" cy="18" r="2"/><circle cx="25" cy="13" r="2"/><circle cx="33" cy="20" r="2"/></svg>
-          </span>
-          <h3>Design</h3>
-          <p>Crie telas e experiências digitais.</p>
-        </article>
-        <article class="area-card">
-          <span class="area-icon" aria-hidden="true">
-            <svg viewBox="0 0 48 48"><path d="M29 8a12 12 0 0 0-14 15L6 32a5 5 0 0 0 7 7l9-9A12 12 0 0 0 37 16l-7 7-7-7 6-8Z"/><path d="m30 30 10 10"/></svg>
-          </span>
-          <h3>Manutenção</h3>
-          <p>Descubra como computadores funcionam.</p>
-        </article>
-        <article class="area-card area-card-wide">
-          <span class="area-icon" aria-hidden="true">
-            <svg viewBox="0 0 48 48"><rect x="17" y="5" width="14" height="10" rx="2"/><rect x="4" y="33" width="14" height="10" rx="2"/><rect x="30" y="33" width="14" height="10" rx="2"/><path d="M24 15v8M11 33v-5h26v5"/></svg>
-          </span>
-          <h3>Redes</h3>
-          <p>Conecte computadores e pessoas.</p>
-        </article>
+    <section class="section intro" id="curso">
+      <p class="pixel-label">PLAYER 01 · SUA JORNADA</p>
+      <h2>Crie tecnologia.<br><span>Não apenas use.</span></h2>
+      <p>A Inteligência Artificial já está transformando o mundo. No curso, você vai entender como ela funciona e aprender a desenvolver soluções inteligentes — começando do zero.</p>
+      <div class="feature-grid">
+        <div class="feature"><b>01</b><strong>Ensino médio + técnico</strong><small>Formação completa na mesma escola.</small></div>
+        <div class="feature"><b>02</b><strong>Aprender fazendo</strong><small>Projetos, programação e desafios reais.</small></div>
+        <div class="feature"><b>03</b><strong>Estágio de 300h</strong><small>Experiência profissional no 3º ano.</small></div>
+        <div class="feature"><b>04</b><strong>3 anos · 3 fases</strong><small>Uma jornada do básico à prática.</small></div>
       </div>
     </section>
 
-    <section class="projects section" id="projetos" aria-labelledby="projects-title">
-      <div class="section-heading">
-        <span class="eyebrow">FEITO POR NOSSOS ALUNOS</span>
-        <h2 id="projects-title">Ideias que viram projetos.</h2>
-        <p>Veja o que a galera está criando no curso.</p>
-      </div>
-      <div class="projects-list" id="projects-list" aria-live="polite"></div>
+    <section class="section disciplines" id="disciplinas">
+      <p class="pixel-label">SEU ARSENAL DE CONHECIMENTO</p>
+      <h2>As fases da<br><span>sua evolução.</span></h2>
+      <article class="phase phase-one">
+        <div class="phase-head"><span>FASE 1</span><small>1º ANO</small></div>
+        <h3>Fundamentos</h3><p>Ninguém chega sabendo, e tudo bem. Aqui você aprende do zero a programar e a usar a IA a seu favor.</p>
+        <ul>
+          <li><b>Lógica de Programação</b><small>Crie seus primeiros programas e jogos.</small></li>
+          <li><b>Introdução à IA</b><small>O que tem por trás do ChatGPT e dos filtros.</small></li>
+          <li><b>IA Generativa e Prompts</b><small>Faça a IA criar textos, imagens e muito mais.</small></li>
+          <li><b>Banco de Dados</b><small>Como o Instagram guarda bilhões de vídeos.</small></li>
+          <li><b>Arquitetura e Manutenção</b><small>Abra um computador e conheça cada peça.</small></li>
+          <li><b>Ética e Leis da IA</b><small>Use a IA com responsabilidade e segurança.</small></li>
+        </ul>
+        <div class="xp"><span>XP · 33%</span><div><i style="width:33%"></i></div></div>
+      </article>
+      <article class="phase phase-two">
+        <div class="phase-head"><span>FASE 2</span><small>2º ANO</small></div>
+        <h3>Construção</h3><p>Hora de criar: ensinar máquinas a aprender, conversar e trabalhar sozinhas.</p>
+        <ul>
+          <li><b>Machine Learning</b><small>Ensine o computador a aprender com exemplos.</small></li>
+          <li><b>Linguagem Natural e LLMs</b><small>Entenda e crie IAs que conversam como gente.</small></li>
+          <li><b>Automação e Agentes de IA</b><small>Robôs digitais que fazem tarefas sozinhos.</small></li>
+          <li><b>Software com IA</b><small>Crie apps e sites inteligentes.</small></li>
+          <li><b>Dados e B.I.</b><small>Transforme números em gráficos e decisões.</small></li>
+          <li><b>Embarcados com IA</b><small>Robôs e sensores que decidem com IA.</small></li>
+        </ul>
+        <p class="extra">+ Redes, Segurança em IA e Inglês Técnico</p>
+        <div class="xp"><span>XP · 66%</span><div><i style="width:66%"></i></div></div>
+      </article>
+      <article class="phase phase-three">
+        <div class="phase-head"><span>FASE 3</span><small>3º ANO</small></div>
+        <h3>Missão final</h3><p>É hora de transformar conhecimento em experiência e projeto.</p>
+        <ul>
+          <li><b>Visão Computacional</b><small>IA que reconhece rostos e objetos.</small></li>
+          <li><b>Gestão de Startups</b><small>Sua ideia com IA vira empresa.</small></li>
+          <li><b>Projeto Integrador</b><small>Cursos de empresas de tecnologia, com certificado.</small></li>
+          <li><b>Estágio de 300h</b><small>Trabalho real ainda no ensino médio.</small></li>
+        </ul>
+        <div class="xp"><span>XP · 100%</span><div><i style="width:100%"></i></div></div>
+      </article>
     </section>
 
-    <section class="join section" id="ingresso" aria-labelledby="join-title">
-      <span class="join-icon" aria-hidden="true">✦</span>
-      <span class="eyebrow">BORA FAZER PARTE?</span>
-      <h2 id="join-title">Seu próximo passo pode ser aqui.</h2>
-      <p>As matrículas são divulgadas pela SEDUC-CE e pela escola. Acompanhe o edital para 2027 e confira os prazos e orientações.</p>
-      <a class="primary-button button-full" href="https://www.seduc.ce.gov.br/" target="_blank" rel="noopener noreferrer">Ver informações da SEDUC <span aria-hidden="true">↗</span></a>
+    <section class="section careers" id="carreiras">
+      <p class="pixel-label">SAVE POINT · FUTURO DESBLOQUEADO</p>
+      <h2>Onde a IA pode<br><span>te levar?</span></h2>
+      <p>No curso você passa por todas essas áreas. Depois, escolhe onde quer brilhar.</p>
+      <div class="career-grid">
+        <div><b>⚙</b><strong>Automação com IA</strong><small>Tarefas automatizadas</small></div>
+        <div><b>✦</b><strong>Chatbots</strong><small>Atendimento inteligente</small></div>
+        <div><b>▥</b><strong>Análise de Dados</strong><small>Dados que decidem</small></div>
+        <div><b>◉</b><strong>Visão de Máquina</strong><small>IA que enxerga</small></div>
+        <div><b>✧</b><strong>IA Generativa</strong><small>Criação de texto e imagem</small></div>
+        <div><b>⌘</b><strong>Desenvolvimento com IA</strong><small>Aplicativos inteligentes</small></div>
+      </div>
+      <h3 class="subheading">PRÓXIMAS FASES DA VIDA</h3>
+      <ol class="next-steps">
+        <li><b>Trabalhar</b> como técnico, muitas vezes na empresa do estágio.</li>
+        <li><b>Fazer faculdade</b> de Computação ou Ciência de Dados já saindo na frente.</li>
+        <li><b>Trabalhar e estudar</b>, pagando a faculdade com o próprio trabalho.</li>
+        <li><b>Empreender</b> levando IA aos negócios da sua cidade.</li>
+      </ol>
+      <p class="local-opportunity"><strong>Começa aqui, vai longe:</strong> comércios, mercadinhos, órgãos públicos e clínicas da sua cidade já precisam de quem domine IA.</p>
     </section>
 
-    <section class="location section" id="localizacao" aria-labelledby="location-title">
-      <div class="section-heading">
-        <span class="eyebrow">ONDE ESTAMOS</span>
-        <h2 id="location-title">EEEP Guiomar Belchior Aguiar</h2>
-        <p>Cariré · Ceará</p>
-      </div>
-      <div class="location-card">
-        <div class="location-pin" aria-hidden="true">⌖</div>
-        <div class="location-info">
-          <strong>Rodovia CE-183, s/n — Cariré Velho</strong>
-          <span>Cariré–CE · CEP 62184-000</span>
-          <a href="tel:+558836461174">(88) 3646-1174</a>
+    <section class="section teachers" id="professores">
+      <p class="pixel-label">SEU TIME · QUEM VAI TE GUIAR</p>
+      <h2>Conheça seus<br><span>professores.</span></h2>
+      <article class="teacher-card">
+        <div class="teacher-photo"><img src="assets/renner-aguiar.jpg" alt="Foto do professor Renner Aguiar" onerror="this.style.display='none';this.parentElement.classList.add('photo-placeholder')"><span>RA</span></div>
+        <div class="teacher-info"><h3>Renner Aguiar</h3><a href="https://instagram.com/renneraguiar" target="_blank" rel="noopener">@renneraguiar ↗</a>
+          <p class="bio-edit">
+            Graduado pela Universidade Federal do Ceará (UFC) em Engenharia da Computação e Pós-graduado em Engenharia de Segurança do Trabalho.
+            Participação no Desenvolvimento de Sistemas e Certificações na área de Redes de Computadores, Telecomunicações, Automação Residencial, Google Cloud Fundactions e DELL.   
+            Desenvolvimento de Projetos usando Internet of Things (IoT).
+          </p>
         </div>
-      </div>
-      <a class="map-button" href="https://www.google.com/maps/search/?api=1&query=EEEP+Guiomar+Belchior+Aguiar+Carire+CE" target="_blank" rel="noopener noreferrer">Abrir no Google Maps <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="teacher-card">
+        <div class="teacher-photo"><img src="assets/davi-magalhaes.jpg" alt="Foto do professor Davi Magalhães" onerror="this.style.display='none';this.parentElement.classList.add('photo-placeholder')"><span>DM</span></div>
+        <div class="teacher-info"><h3>Davi Magalhães</h3><a href="https://instagram.com/davimagals" target="_blank" rel="noopener">@davimagals ↗</a>
+          <p class="bio-edit">
+            Engenheiro de Software pela Universidade Federal do Ceará, possui especializações em Análise e Desenvolvimento de Sistemas,
+            Segurança de Redes de Computadores e Engenharia de Segurança do Trabalho. Também é licenciado em Matemática.
+            Possui experiência com software WEB e Embarcado. Foi programador concursado federal na UFSC, onde atuou também para
+            o Ministério da Educação.
+          </p>
+        </div>
+      </article>
+      <p class="teacher-note">Dois professores acompanhando sua jornada de aprendizagem e desenvolvimento.</p>
     </section>
 
-    <footer class="footer">
-      <img src="assets/logo-ds-guiomar.png" alt="" width="42" height="42">
-      <p><strong>Desenvolvimento de Sistemas</strong><br>EEEP Guiomar Belchior Aguiar · Cariré–CE</p>
-      <a href="#inicio" aria-label="Voltar ao início">↑</a>
-    </footer>
+    <section class="section school" id="escola">
+      <p class="pixel-label">BÔNUS · VANTAGEM DE JOGO</p>
+      <h2>Uma escola que<br><span>abre caminhos.</span></h2>
+      <div class="school-highlight"><strong>1º LUGAR NA UFC QUIXADÁ</strong><p>Um ex-aluno da escola conquistou o 1º lugar em Engenharia de Software na UFC Quixadá utilizando medalhas de olimpíadas.</p></div>
+      <ul class="school-list">
+        <li><b>✓</b><span><strong>Olimpíadas do conhecimento</strong><small>As medalhas podem abrir portas para a universidade.</small></span></li>
+        <li><b>✓</b><span><strong>Projeto Integrador</strong><small>Cursos online de empresas como Google e Dell, com certificados para valorizar seu currículo.</small></span></li>
+        <li><b>✓</b><span><strong>Visitas técnicas</strong><small>Contato com empresas e ambientes de tecnologia.</small></span></li>
+        <li><b>✓</b><span><strong>Experiência profissional</strong><small>Estágio de 300 horas no 3º ano.</small></span></li>
+        <li><b>✓</b><span><strong>Formação para o futuro</strong><small>Ensino médio completo, diploma técnico e base para ENEM, olimpíadas e faculdade.</small></span></li>
+      </ul>
+      <div class="school-footer"><span class="school-seal">GB</span><div><strong>EEEP Guiomar Belchior Aguiar</strong><small>Educação pública · Formação técnica</small><a href="https://instagram.com/eeepguiomar" target="_blank" rel="noopener">@eeepguiomar ↗</a></div></div>
+    </section>
+
+    <section class="final-cta">
+      <p class="pixel-label">PLAYER 1 · SUA VEZ</p>
+      <h2>Seu futuro não é só assistir.<br><span>É criar.</span></h2>
+      <p>Seja da primeira turma de Inteligência Artificial da nossa escola.</p>
+      <a class="primary-btn" href="https://instagram.com/eeepguiomar" target="_blank" rel="noopener">FALE COM A ESCOLA ↗</a>
+      <small>Ensino médio + técnico na mesma escola.</small>
+    </section>
   </main>
+  <footer>© EEEP Guiomar Belchior Aguiar · CURSO TÉCNICO EM IA <span>GAME OVER? NUNCA.</span></footer>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
